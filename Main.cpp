@@ -23,7 +23,7 @@ void printElements(list<album> l){
         it->printAlbum();
     }
 }
-void initializeMusicShop(album dk, album rel, album calif, album fn, album mtm){
+void initializeMusicShop(){
     insertIntoList(Dark_Horse);
     insertIntoList(Reload);
     insertIntoList(Californication);
@@ -49,7 +49,7 @@ list<album>::iterator searchId(list<album> &l, const int i){
 
 int main()
 {
-    initializeMusicShop(Dark_Horse, Reload, Californication, FashionNugget, MinutesToMidnight);
+    initializeMusicShop();
 
     while (true){
         cout << endl;
