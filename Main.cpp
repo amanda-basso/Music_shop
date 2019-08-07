@@ -68,7 +68,6 @@ int main()
         int yearRelease;
 
         cin >> option;
-
         if (option == 49){
             cout << "ALBUM INSERTION" << endl;
             cout << "Enter the Id number: ";
